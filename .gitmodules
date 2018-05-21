@@ -1,0 +1,6 @@
+[submodule "parse-binet"]
+	path = parse-binet
+	url = https://github.com/Kobtul/parse-binet.git
+[submodule "parse_binet"]
+	path = parse_binet
+	url = https://github.com/Kobtul/parse-binet.git

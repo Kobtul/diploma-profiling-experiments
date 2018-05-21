@@ -1,0 +1,46 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <!-- Plotly.js -->
+    <!--<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>-->
+    <script src="comparisons/js/plotly-latest.min.js"></script>
+    <script src="comparisons/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+     <!-- Bootstrap Core CSS -->
+     <link rel="stylesheet" type="text/css" href="comparisons/css/bootstrap.min.css" />
+     <!-- Bootstrap Core JS -->
+    <script src="comparisons/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <script src="comparisons/js/comparisons.js" type="text/javascript"></script>
+    <script src="comparisons/js/graph.js" type="text/javascript"></script>
+
+  </head>
+  
+  <body>
+    <div class="row">
+        <div class="button-box col-lg-12">
+
+          <div class="dropdown" id="trueipdropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Unknown IP adresses
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu trueipitem">
+              </ul>
+            </div>
+            <div class="dropdown" id="truedatadropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Unknown Date
+                        <span class="caret"></span></button>
+              <ul class="dropdown-menu truedateitem">
+              </ul>
+            </div>
+            <div class="dropdown" id="knownipdropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Known IP adress
+                          <span class="caret"></span></button>
+                <ul class="dropdown-menu knownipitem">
+                </ul>
+              </div>
+            </div>
+      </div>
+    <h3 id="toptitle"></h3>
+    <div id="trueIPDiv"><!-- Plotly chart will be drawn inside this DIV --></div>
+  </body>
+</html>>
