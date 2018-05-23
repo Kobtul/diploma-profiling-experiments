@@ -4,7 +4,7 @@ Installation
 --------
 Clone the repository
 ```
-git clone https://github.com/Kobtul/diplomaexperimets.git --recursive
+git clone -b thesis https://github.com/Kobtul/diploma-profiling-experiments.git
 ```
 
 create the virtual enviroment:
